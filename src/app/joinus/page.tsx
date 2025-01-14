@@ -85,7 +85,7 @@ const JoinUs = () => {
 
         {/* Terms and Conditions */}
         <p className="text-gray-500 text-center text-sm md:text-base pb-6">
-          By creating an account, you agree to Nike's{" "}
+          By creating an account, you agree to Nike&apos;s{" "}
           <Link href="/privacy-policy" className="underline">
             Privacy Policy
           </Link>{" "}

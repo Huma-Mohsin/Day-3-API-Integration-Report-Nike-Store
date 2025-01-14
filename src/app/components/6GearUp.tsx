@@ -41,13 +41,13 @@ const GearUp = () => {
               <Image src="/Image1.png" alt="Men's Top" width={300} height={300} className="rounded-lg" />
               <p className="text-black font-medium mt-4">Nike Dri-FIT ADV TechKnit Ultra</p>
               <p className="text-black text-right text-sm">₹ 3,895</p>
-              <p className="text-gray-600 font-normal font-sans mt-2">Men's Short-Sleeve Running Top</p>
+              <p className="text-gray-600 font-normal font-sans mt-2">Men&apos;s Short-Sleeve Running Top</p>
             </div>
             <div className="text-center flex flex-col items-center">
               <Image src="/image2.png" alt="Men's Shorts" width={300} height={300} className="rounded-lg" />
               <p className="text-black font-medium mt-4">Nike Dri-FIT Challenger</p>
               <p className="text-black text-right text-sm">₹ 2,495</p>
-              <p className="text-gray-600 font-normal font-sans mt-2">Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
+              <p className="text-gray-600 font-normal font-sans mt-2">Men&apos;s 18cm (approx.) 2-in-1 Versatile Shorts</p>
             </div>
 
             {/* Women's Section */}
@@ -55,13 +55,13 @@ const GearUp = () => {
               <Image src="/image3.png" alt="Women's Top" width={300} height={300} className="rounded-lg" />
               <p className="text-black font-medium mt-4">Nike Dri-FIT ADV Run Division</p>
               <p className="text-black text-right text-sm">₹ 5,295</p>
-              <p className="text-gray-600 font-normal font-sans mt-2">Women's Long-Sleeve Running Top</p>
+              <p className="text-gray-600 font-normal font-sans mt-2">Women&apos;s Long-Sleeve Running Top</p>
             </div>
             <div className="text-center flex flex-col items-center">
               <Image src="/image4.png" alt="Women's Leggings" width={300} height={300} className="rounded-lg" />
               <p className="text-black font-medium mt-4">Nike Fast</p>
               <p className="text-black text-right text-sm">₹ 3,795</p>
-              <p className="text-gray-600 font-normal font-sans mt-2">Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
+              <p className="text-gray-600 font-normal font-sans mt-2">Women&apos;s Mid-Rise 7/8 Running Leggings with Pockets</p>
             </div>
           </div>
         </div>

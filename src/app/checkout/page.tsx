@@ -9,7 +9,7 @@ const Checkoutpage = () => {
       <div className="col-span-12 lg:col-span-8">
         <h2 className="font-bold text-lg lg:text-xl pb-4">How would you like to get your order?</h2>
         <p className="text-sm lg:text-base leading-relaxed">
-          Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the
+          Customs regulation for India require a copy of the recipient&apos;s KYC. The address on the KYC needs to match the
           shipping address. Our courier will contact you via SMS/email to obtain a copy of your KYC. The KYC will be
           stored securely and used solely for the purpose of clearing customs (including sharing it with customs
           officials) for all orders and returns. If your KYC does not match your shipping address, please click the link

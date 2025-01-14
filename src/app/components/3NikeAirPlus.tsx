@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const NikeAirPlus = () => {
@@ -5,9 +6,11 @@ const NikeAirPlus = () => {
     <div className="w-full mt-10">
       {/* Parent div with image */}
       <div className="w-full max-w-[1200px] mx-auto h-auto sm:h-[500px] md:h-[600px]">
-        <img
+        <Image
           src="/nikeAirPulse.png" 
           alt="Nike Air Max Pulse"
+          width={500}
+          height={500}
           className="w-full h-auto object-cover"
         />
       </div>

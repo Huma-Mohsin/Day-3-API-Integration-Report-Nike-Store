@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const DoNotMissSection = () => {
@@ -10,10 +11,12 @@ const DoNotMissSection = () => {
 
       {/* Centered Image Container */}
       <div className="w-full max-w-[1200px] mx-auto h-auto overflow-hidden relative">
-        <img
+        <Image
           src="/Donotmiss.png"
           alt="Do Not Miss"
           className="w-full h-auto object-contain"
+          width={500}
+          height={500}
         />
       </div>
     </div>

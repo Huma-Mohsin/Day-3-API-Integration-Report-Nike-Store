@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const BestAirMax = () => {
@@ -37,9 +38,11 @@ const BestAirMax = () => {
           >
             {/* Image Section */}
             <div className="w-full h-auto overflow-hidden rounded-t-lg">
-              <img
+              <Image
                 src={item.image}
                 alt={item.name}
+                width={500}
+                height={500}
                 className="w-full h-auto object-cover"
               />
             </div>

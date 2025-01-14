@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Cart = () => {
@@ -11,14 +12,14 @@ const Cart = () => {
             <h2 className="text-lg md:text-2xl font-bold mb-4">Bag</h2>
             {/* Item 1 */}
             <div className="flex flex-col md:flex-row items-center justify-between border-b pb-4 mb-4">
-              <img
+              <Image
                 src="/image1.png"
                 alt="Nike Dri-FIT ADV TechKnit Ultra"
                 className="w-24 h-24 rounded-md border mb-4 md:mb-0"
               />
               <div className="ml-4 flex-1">
                 <h3 className="font-medium text-gray-800">Nike Dri-FIT ADV TechKnit Ultra</h3>
-                <p className="text-sm text-gray-600">Men's Short-Sleeve Running Top</p>
+                <p className="text-sm text-gray-600">Men&apos;s Short-Sleeve Running Top</p>
                 <p className="text-sm text-gray-500">Ashen Slate/Cobalt Bliss</p>
                 <p className="text-sm text-gray-500">Size: L</p>
               </div>
@@ -30,14 +31,14 @@ const Cart = () => {
 
             {/* Item 2 */}
             <div className="flex flex-col md:flex-row items-center justify-between border-b pb-4 mb-4">
-              <img
+              <Image
                 src="/image2.png"
                 alt="Nike Air Max 97 SE"
                 className="w-24 h-24 rounded-md border mb-4 md:mb-0"
               />
               <div className="ml-4 flex-1">
                 <h3 className="font-medium text-gray-800">Nike Air Max 97 SE</h3>
-                <p className="text-sm text-gray-600">Men's Shoes</p>
+                <p className="text-sm text-gray-600">Men&apos;s Shoes</p>
                 <p className="text-sm text-gray-500">Flat Pewter/Light Bone/Black/White</p>
                 <p className="text-sm text-gray-500">Size: 8</p>
               </div>

@@ -43,9 +43,9 @@ const Footer = () => {
           <h3 className="font-bold text-black mb-4 text-lg sm:text-xl">Kids</h3>
           <ul className="space-y-2 text-sm text-gray-600">
             <li>Infant & Toddler Shoes</li>
-            <li>Kid's Shoes</li>
-            <li>Kid's Jordan Shoes</li>
-            <li>Kid's Basketball Shoes</li>
+            <li>Kid&apos;s Shoes</li>
+            <li>Kid&apos;s Jordan Shoes</li>
+            <li>Kid&apos;s Basketball Shoes</li>
           </ul>
         </div>
       </div>

@@ -142,19 +142,19 @@ const Page = () => {
               <Link href="#">New Football Shoes</Link>
             </li>
             <li className="border-[1px] rounded-full px-6 py-[0.5px]">
-              <Link href="#">New Men's Shoes</Link>
+              <Link href="#">New Men&apos;s Shoes</Link>
             </li>
             <li className="border-[1px] rounded-full px-6 py-[0.5px]">
               <Link href="#">New Running Shoes</Link>
             </li>
             <li className="border-[1px] rounded-full px-6 py-[0.5px]">
-              <Link href="#">Best Men's Shoes</Link>
+              <Link href="#">Best Men&apos;s Shoes</Link>
             </li>
             <li className="border-[1px] rounded-full px-6 py-[0.5px]">
               <Link href="#">New Jordan Shoes</Link>
             </li>
             <li className="border-[1px] rounded-full px-6 py-[0.5px]">
-              <Link href="#">Best Women's Shoes</Link>
+              <Link href="#">Best Women&apos;s Shoes</Link>
             </li>
             <li className="border-[1px] rounded-full px-6 py-[0.5px]">
               <Link href="#">Best Training & Gym</Link>

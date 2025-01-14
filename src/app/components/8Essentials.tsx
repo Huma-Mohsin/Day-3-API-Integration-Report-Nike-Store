@@ -29,7 +29,7 @@ const Essentials = () => {
             className="rounded-lg"
           />
           <button className="absolute bottom-4 left-4 px-4 py-2 bg-gray-400 text-black font-medium text-sm rounded-full hover:bg-gray-800 hover:text-white transition">
-            Men's
+            Men&apos;s
           </button>
         </div>
 
@@ -43,7 +43,7 @@ const Essentials = () => {
             className="rounded-lg"
           />
           <button className="absolute bottom-4 left-4 px-4 py-2 bg-gray-400 text-black font-medium text-sm rounded-full hover:bg-gray-800 hover:text-white transition">
-            Women's
+            Women&apos;s
           </button>
         </div>
 
@@ -57,7 +57,7 @@ const Essentials = () => {
             className="rounded-lg"
           />
           <button className="absolute bottom-4 left-4 px-4 py-2 bg-gray-400 text-black font-medium text-sm rounded-full hover:bg-gray-800 hover:text-white transition">
-            Kid's
+            Kid&apos;s
           </button>
         </div>
       </div>

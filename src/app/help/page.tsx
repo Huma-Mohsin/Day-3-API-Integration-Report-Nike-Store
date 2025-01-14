@@ -22,7 +22,7 @@ const Helppage = () => {
                 <ul className="list-disc pl-5 mb-6 space-y-2">
                 <li>Visa, Mastercard, Diners Club, Discover, American Express, Visa Electron, Maestro</li>
                 <li>
-                    If you enter your PAN information at checkout, you'll be able to pay for your order with PayTM or a local credit or debit card.
+                    If you enter your PAN information at checkout, you&apos;ll be able to pay for your order with PayTM or a local credit or debit card.
                 </li>
                 <li>Apple Pay</li>
                 </ul>
@@ -30,7 +30,7 @@ const Helppage = () => {
                 <Link href="#" className="underline font-semibold">
                     Nike Members
                 </Link>{" "}
-                can store multiple debit or credit cards in their profile for faster checkout. If you're not already a Member,{" "}
+                can store multiple debit or credit cards in their profile for faster checkout. If you&apos;re not already a Member,{" "}
                 <Link href="#" className="underline font-semibold">
                     join us
                 </Link>{" "}
@@ -65,17 +65,17 @@ const Helppage = () => {
                 </div>
                 <div className="mb-6">
                     <h4 className="text-lg font-bold mb-2">Can I pay for my order with multiple methods?</h4>
-                    <p>No, payment for Nike orders can't be split between multiple payment methods.</p>
+                    <p>No, payment for Nike orders can&apos;t be split between multiple payment methods.</p>
                 </div>
                 <div className="mb-6">
                     <h4 className="text-lg font-bold mb-2">What payment method is accepted for SNKRS orders?</h4>
                     <p>You can use any accepted credit card to pay for your SNKRS order.</p>
                 </div>
                 <div className="mb-6">
-                    <h4 className="text-lg font-bold mb-2">Why don't I see Apple Pay as an option?</h4>
+                    <h4 className="text-lg font-bold mb-2">Why don&apos;t I see Apple Pay as an option?</h4>
                     <p>
-                    To see Apple Pay as an option in the Nike App or on Nike.com, you'll need to use a compatible Apple device running the
-                    latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you'll need to use
+                    To see Apple Pay as an option in the Nike App or on Nike.com, you&apos;ll need to use a compatible Apple device running the
+                    latest OS, be signed in to your iCloud account and have a supported card in your Wallet. Additionally, you&apos;ll need to use
                     Safari to use Apple Pay on Nike.com.
                     </p>
                 </div>
@@ -90,7 +90,7 @@ const Helppage = () => {
                 <ul className="space-y-2 ml-6">
                     <li>
                     <Link href="#" className="underline font-bold">
-                        WHAT ARE NIKE'S DELIVERY OPTIONS?
+                        WHAT ARE NIKE&apos;S DELIVERY OPTIONS?
                     </Link>
                     </li>
                     <li>
@@ -121,7 +121,7 @@ const Helppage = () => {
                 {/* Email Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
                     <FaEnvelope className="w-10 h-10"/>
-                    <p>We’ll reply within</p>
+                    <p>We&apos;ll reply within</p>
                     <p>five business days</p>
                 </div>
 
