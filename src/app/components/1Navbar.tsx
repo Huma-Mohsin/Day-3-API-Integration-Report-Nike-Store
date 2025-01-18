@@ -92,7 +92,8 @@ const Navbar = () => {
 
             <div className="flex space-x-4 mt-2 sm:space-x-2">
               <FaRegHeart className="text-black text-lg" aria-label="Favorites" />
-              <BsBag className="w-6 h-6 text-lg" aria-label="Shopping cart" />
+              <Link href="/cart">
+              <BsBag className="w-6 h-6 text-lg" aria-label="Shopping cart"  /></Link>
             </div>
           </div>
         </div>

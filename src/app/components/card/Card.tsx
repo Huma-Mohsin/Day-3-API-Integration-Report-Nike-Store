@@ -1,39 +1,30 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+// components/card/Card.tsx
+import React from 'react';
+import { Product } from '@/app/producttypes'; // Import Product type
 
-type Product = {
-  id:number;
-  tags: string;
-  title: string;
-  description: string;
-  color: string;
-  price: string;
-  imagesUrls: string;
-};
+interface CardProps extends Product {
+  imagesUrls: string[]; // Array of image URLs for the product
+}
 
-const Card: React.FC<Product> = ({
-  id,
-  tags,
-  title,
-  description,
-  color,
-  price,
-  imagesUrls,
-}) => {
+const Card: React.FC<CardProps> = ({ title, description, price, imagesUrls, color, tags }) => {
   return (
-    <div className="mb-6 md:mb-6 m-auto md:m-0 px-2 focus-visible:outline-none">
-      <Link className="focus-visible:outline-none" href={`/all-products/${id}`}
-      >
-        <Image className="focus-visible:outline-none" src={imagesUrls} alt={title} width={300} height={300} />
-      <div className="py-4 focus-visible:outline-none">
-        <h4 className="text-[#9E3500]">{tags}</h4>
-        <h2 className="font-semibold">{title}</h2>
-        <p className="text-text-secondary-gray">{description}</p>
-        <p className="text-text-secondary-gray">{color}</p>
-      </div>
-      <h3 className="font-semibold focus-visible:outline-none">{price}</h3>
-      </Link>
+    <div className="bg-white p-4 rounded-lg shadow-lg">
+      {/* Product Image */}
+      {imagesUrls.length > 0 && (
+        <img
+          src={imagesUrls[0]}
+          alt={title}
+          className="w-full h-56 object-contain rounded-lg mb-4" // Use object-contain or object-cover
+        />
+      )}
+      {/* Product Title */}
+      <h2 className="font-semibold text-xl text-gray-800">{title}</h2>
+      <p className="text-gray-600 text-sm mb-4">{description}</p>
+      <p className="text-gray-900 font-bold text-lg mb-2">${price}</p>
+      {/* Product Colors */}
+      <p className="text-gray-500 text-sm">Colors: {color}</p>
+      {/* Product Tags */}
+      <p className="text-gray-500 text-sm">Category: {tags}</p>
     </div>
   );
 };

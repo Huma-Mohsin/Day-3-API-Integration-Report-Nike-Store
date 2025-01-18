@@ -19,10 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
-        {children}
-        <StaticFooter/>
-        </body>
+      
+          {/* Wrap the entire application within CartProvider */}
+          <Navbar />
+          {children}
+          <StaticFooter />
+       
+      </body>
     </html>
   );
 }

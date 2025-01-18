@@ -125,7 +125,7 @@ const Page = () => {
             Sort By <FiChevronDown className="ml-2" />
           </div>
         </div>
-        <ProductList />
+        <ProductList />   
         <div>
           <h3 className="mt-12 font-bold">Related Categories</h3>
           <ul className="flex gap-x-4 gap-y-2 flex-wrap mt-4">
