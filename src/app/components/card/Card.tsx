@@ -1,6 +1,7 @@
 // components/card/Card.tsx
 import React from 'react';
 import { Product } from '@/app/producttypes'; // Import Product type
+import Image from 'next/image';
 
 interface CardProps extends Product {
   imagesUrls: string[]; // Array of image URLs for the product
@@ -11,9 +12,11 @@ const Card: React.FC<CardProps> = ({ title, description, price, imagesUrls, colo
     <div className="bg-white p-4 rounded-lg shadow-lg">
       {/* Product Image */}
       {imagesUrls.length > 0 && (
-        <img
+        <Image
           src={imagesUrls[0]}
           alt={title}
+          width={500}
+          height={500}
           className="w-full h-56 object-contain rounded-lg mb-4" // Use object-contain or object-cover
         />
       )}

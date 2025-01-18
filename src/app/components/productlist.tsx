@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 
-// Assuming fetchProducts returns data from the API correctly
 const fetchProducts = async () => {
   const response = await fetch("https://template-03-api.vercel.app/api/products");
   const data = await response.json();
