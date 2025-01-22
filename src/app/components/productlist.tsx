@@ -42,7 +42,8 @@ const ProductList: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-center font-bold text-3xl mb-10">Nike Products</h1>
+      <h1 className="text-center font-bold text-3xl ">Nike Products</h1>
+      <h1 className="text-center text-blue-600 text-2xl mt-4 mb-8 ">By Provided API</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-10 border-b-2">
         {products.map((product: any) => (
           <div

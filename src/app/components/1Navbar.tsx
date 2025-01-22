@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CiSearch } from 'react-icons/ci';
 import { FaRegHeart, FaBars } from 'react-icons/fa';
+import { PiGiftLight } from "react-icons/pi";
 import { BsBag } from 'react-icons/bs';
 import { useState } from 'react';
 
@@ -91,9 +92,14 @@ const Navbar = () => {
             </div>
 
             <div className="flex space-x-4 mt-2 sm:space-x-2">
+            <Link href="/gifts">
+              <PiGiftLight className="text-black text-lg cursor-pointer" aria-label="GiftVouchers" />
+            </Link>
+
               <FaRegHeart className="text-black text-lg" aria-label="Favorites" />
               <Link href="/cart">
-              <BsBag className="w-6 h-6 text-lg" aria-label="Shopping cart"  /></Link>
+              <BsBag className="w-4 h-4 text-lg" aria-label="Shopping cart"  /></Link>
+
             </div>
           </div>
         </div>
