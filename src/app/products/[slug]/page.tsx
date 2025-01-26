@@ -73,7 +73,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <h1 className="text-4xl font-semibold text-gray-900">{product.productName}</h1>
 
           {/* Category */}
-          <p className="text-xl text-gray-800 font-semibold">Category: <span className=" text-blue-400">{product.category}</span></p>
+          <p className="text-xl text-gray-800 font-semibold">Category: <span className=" text-blue-500">{product.category}</span></p>
 
          
           {/* Product Description */}
